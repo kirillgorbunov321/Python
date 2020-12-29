@@ -1,0 +1,18 @@
+seasons_list = ['зима', 'весна', 'лето', 'осень']
+seasons_dict = {1 : 'зима', 2: 'Весна', 3 : 'лето', 4:'осень'}
+month = int(input("Введите месяц по номеру "))
+если месяц = =1 или месяц = = 12 или месяц = = 2:
+        print(seasons_dict.get(1))
+        print(seasons_list[0])
+Элиф месяц = = 3 или месяц = = 4 или месяц = =5:
+    print(seasons_dict.get(2))
+    print(seasons_list[1])
+Элиф месяц = = 6 или месяц = = 7 или месяц = = 8:
+    print(seasons_dict.get(3))
+    print(seasons_list[2])
+
+Элиф месяц = = 9 или месяц = = 10 или месяц = = 11:
+    print(seasons_dict.get(4))
+    print(seasons_list[3])
+остальное:
+        print("Такого месяца не существует")
